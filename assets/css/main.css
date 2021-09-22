@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    height:60px;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+#header{
+    position: sticky;
+    background-color: rgb(4, 4, 22);
+    top: 0px;
+    width: 104%;
+    margin-left: -13px;
+    height: 90px;
+    z-index: 20;
+}
+
+#main-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between;   */
+    justify-content: right;
+    padding: 0px 30px 30px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#main-navigation ul li {
+    margin: -24px 0px;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.car img{
+    height: 650px;
+    width: 103% ;
+    mask-repeat: no-repeat;
+    margin-left: -12px;
+    margin-top: -105px;
+    position: relative;
+}
+
+.car h1{
+    z-index: 10;
+    top: 300px;
+    position: absolute;
+    left: 350px;
+    color: white;
+}
+
+.journey{
+    width: 40%;
+    height: 76px;
+    border-radius: 5%;
+    border-color: white;
+    z-index: 10;
+    position: absolute;
+    top: 390px;
+    left: 390px;
+    font-size: 23px;
+}
+
+.self{
+    color: white;
+    position: absolute;
+    z-index: 10;
+    top: 350px;
+    left: 469px;
+}
+
+
+
+span{
+    border:dotted white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.Delhi{
+    text-decoration: none;
+    color: white;
+}
+
+.Delhi:hover{
+    color: white;
+}
+
+.content{
+    margin-top: 20px;
+    background-color: rgb(215, 225, 235);
+    text-align: center;
+    width: 103%;
+    margin-left: -18px;
+    margin-right: 130x;
+    margin-top: -2px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.container{
+    
+    margin-top: 25px;
+}
+
+.card{
+    margin: 10px;
+}
+
+.redcar{
+    width: 104%;
+    height: 300px;
+    margin-left: -15px;
+    margin-top: -8px;
+    
+}
+
+.black{
+    position: relative;
+}
+
+.card img{
+   height: 100px;
+   width: 20%;
+   margin-left: 140px;
+}
+
+.patch{
+    background-color: rgba(0,0,0,0.7);
+    z-index: 20;
+    position: absolute;
+    margin-top: -285px;
+    height: 284px;
+    width: 104%;
+    
+}
+
+.club{
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: -180px;
+    z-index: 30;
+    margin-left: 450px;
+}
+
+.earn{
+    background-color:white;
+    width: 14%;
+    padding: 10px;
+    z-index: 40;
+    position: absolute;
+    top: 245px;
+    text-align: center;
+    left: 575px;
+}
+
+.earn .zlogo{
+    margin-left: -2px;
+}
+
+.para{
+    text-align: center;
+    margin-top: 57px;
+}
+
+.learn{
+    border: 1px solid black;
+    margin-left: 610px;
+}
+
+.slider{
+    width: 105%;
+    margin-left: -17px;
+}
+
+.slider img{
+    height: 600px;
+    width: 104%;  
+    padding-top: 15px;
+    margin-left: 3px;
+}
+
+.works{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.signbtn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 14px;
+    background-color: rgb(54, 51, 51);
+    width: 104%;
+    margin-left: -15px;
+}
+
+.footer .copy{
+    font-size: 12px;
+    
+}
+
+.footer .col-2{
+    margin-left: 554px;
+}
+
+.footer h6,.foot,.copy{
+    color: white;
+    padding: 14px;
+}
+
+.last{
+    background-color: rgb(231, 229, 229) ;
+    /* padding: 100px 100px; */
+    width: 104%;
+    margin-left: -14px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
